@@ -1,0 +1,12 @@
+[
+  {
+    "source_id": "demo_source",
+    "title": "Example entry — replace with your real sources",
+    "url": "https://example.org/public-domain-document.pdf",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Optional attribution string required by the license",
+    "downloaded": "2026-04-13",
+    "notes": "Only use PDFs you may redistribute. See DATASET.md."
+  }
+]
