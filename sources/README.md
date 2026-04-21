@@ -1,4 +1,4 @@
-Place **lawfully redistributable** PDFs here (public domain or compatible Creative Commons), then render them to PNGs:
+Place **lawfully redistributable** PDFs or EPUBs here (public domain or compatible Creative Commons), then render them to PNGs. **Large files are not committed** — they are listed in `SOURCES.json` for attribution and licensing only.
 
 ```bash
 pip install -r requirements.txt
