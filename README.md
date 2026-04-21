@@ -57,7 +57,7 @@ You can push **code and docs** anytime. For **binary outputs** (`clean/`, `degra
 2. **Incremental pushes** — If you must push before completion, prefer committing **completed source folders** (e.g. one `source_id` at a time) and regenerate `manifest.csv` after the full build, or accept that early commits lack the final manifest rows.
 3. **Large files** — Plain git is painful for many large PNGs. Use **[Git LFS](https://git-lfs.com/)** for tracked images, or ship a **zip** via **GitHub Releases** / **Zenodo** and keep only `demo/` plus `manifest.csv` samples in the repo. Details: [`DATASET.md`](../DATASET.md) (Hosting section).
 
-The template [`.gitignore`](../.gitignore) includes commented lines for `dataset/clean/`, `dataset/degraded/`, and `dataset/manifest.csv` — uncomment them if you want the repo to track **code only** and host binaries elsewhere; leave them commented if you commit the full dataset in git.
+This repository’s [`.gitignore`](.gitignore) ignores **`clean/`**, **`degraded/`**, root **`manifest.csv`**, and **`sources/*.pdf`** / **`sources/*.epub`** so generated and source documents are kept locally (or shipped via Releases/Zenodo) instead of bloating GitHub. The small **[`demo/`](demo/README.md)** subset stays tracked for reviewers. The parent project’s [`.gitignore`](../.gitignore) mirrors the same rules if you work from the full `finalproject` tree.
 
 ---
 

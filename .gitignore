@@ -1,0 +1,17 @@
+# Generated corpus (rebuild with scripts/render_pdf.py + scripts/build_dataset.py from repo root)
+/clean/
+/degraded/
+
+# Full-build manifest at repo root (regenerate locally; demo manifest is under demo/)
+/manifest.csv
+
+# Source documents — keep licenses in SOURCES.json; do not commit large PDFs/EPUBs
+/sources/*.pdf
+/sources/*.epub
+/sources/**/*.pdf
+/sources/**/*.epub
+
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+*.tmp
