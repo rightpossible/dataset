@@ -1,5 +1,5 @@
 sample_id,source_id,page_stem,preset,seed,dpi,clean_path,degraded_path,git_commit
-demo_source_page_0001_light,demo_source,page_0001,light,1473193330,200,clean/demo_source/page_0001.png,degraded/light/demo_source/page_0001.png,
-demo_source_page_0001_moderate,demo_source,page_0001,moderate,1512493405,200,clean/demo_source/page_0001.png,degraded/moderate/demo_source/page_0001.png,
-demo_source_page_0001_severe,demo_source,page_0001,severe,2069604031,200,clean/demo_source/page_0001.png,degraded/severe/demo_source/page_0001.png,
-demo_source_page_0001_extreme,demo_source,page_0001,extreme,701158642,200,clean/demo_source/page_0001.png,degraded/extreme/demo_source/page_0001.png,
+doc_page_0001_moderate,doc,page_0001,moderate,1881265773,200,original/page_0001.png,moderate_degraded/page_0001.png,
+doc_page_0001_severe,doc,page_0001,severe,646248584,200,original/page_0001.png,severe_degraded/page_0001.png,
+doc_page_0001_extreme,doc,page_0001,extreme,1131235210,200,original/page_0001.png,extreme_degraded/page_0001.png,
+doc_page_0002_moderate,doc,page_0002,moderate,317188008,200,original/page_0002.png,moderate_degraded/page_0002.png,

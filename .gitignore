@@ -1,17 +1,16 @@
-# Generated corpus (rebuild with scripts/render_pdf.py + scripts/build_dataset.py from repo root)
-/clean/
-/degraded/
-
-# Full-build manifest at repo root (regenerate locally; demo manifest is under demo/)
-/manifest.csv
-
-# Source documents — keep licenses in SOURCES.json; do not commit large PDFs/EPUBs
+# Large source documents (record metadata in SOURCES.json; use Git LFS if you must commit)
 /sources/*.pdf
 /sources/*.epub
 /sources/**/*.pdf
 /sources/**/*.epub
 
+# Optional: PDF placed at dataset root for a single-book workflow (omit from git or use LFS)
+/*.pdf
+/*.epub
+
 # OS / editor noise
 Thumbs.db
 Desktop.ini
 *.tmp
+/moderate_degraded
+/extreme_degraded

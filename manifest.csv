@@ -1,0 +1,4 @@
+sample_id,source_id,page_stem,preset,seed,dpi,clean_path,degraded_path,git_commit
+book_page_0001_moderate,book,page_0001,moderate,1120575041,200,page_0001.png,moderate_degraded/page_0001.png,
+book_page_0001_severe,book,page_0001,severe,509701074,200,page_0001.png,severe_degraded/page_0001.png,
+book_page_0001_extreme,book,page_0001,extreme,1934334837,200,page_0001.png,extreme_degraded/page_0001.png,

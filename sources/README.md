@@ -2,7 +2,7 @@ Place **lawfully redistributable** PDFs or EPUBs here (public domain or compatib
 
 ```bash
 pip install -r requirements.txt
-python scripts/render_pdf.py --pdf-dir dataset/sources --out-dir dataset/clean --dpi 200
+python scripts/render_pdf.py --pdf-dir dataset/sources --out-dir dataset/original --dpi 200 --grayscale --only mybook.pdf
 ```
 
 Record each file in `SOURCES.json` (copy from `SOURCES.example.json`). Do not commit copyrighted material without permission.
